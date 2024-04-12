@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-image: url(pexels-photo-18054069.webp);
+  background-size: cover;
+  width: 390px;
+  height: 90vh;
+  border: 6px solid white;
+  border-radius: 30px;
+  filter: contrast(110%);
+  box-shadow: 2px 2px 26px black;
+}
+
+.nav {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search {
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 20px;
+  padding: 4px 28px;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+.button {
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+}
+
+.hero {
+  margin-top: 50px;
+  margin-left: 10px;
+
+}
+
+.hero h1 {
+  font-size: 38px;
+  color: white;
+}
+.hero h6 {
+  font-size: 12px;
+  color: white;
+  font-weight: 550;
+}
+
+.box {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.timeData{
+color: white;
+font-weight: lighter;
+font-size: 32px;
+
+}
+
+
+
+.hero2 {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.hero2 h2 {
+  color: white;
+  font-size: 86px;
+  font-weight: lighter;
+}
+
+.icon {
+  margin-top: -20px;
+  margin-left: 8px;
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+
+.icon i {
+  font-size: 22px;
+}
+
+.icon h5 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  padding-top: 36px;
+  color: white;
+  border-top: 0.2px solid rgb(213, 213, 213);
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.col h6 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.col h4 {
+  font-size: 32px;
+}
+
+#icon {
+  margin-top: 16px;
+  font-size: 24px;
+}
+.weather {
+  padding-top: 14px;
+}
